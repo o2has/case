@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="512" height="512" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <radialGradient id="backgroundGradient" spreadMethod="pad" gradientUnits="userSpaceOnUse" cx="256" cy="256" r="364" fx="256" fy="256">
+      <stop offset="0%" stop-color="rgb(54,55,56)"></stop>
+      <stop offset="100%" stop-color="rgb(14,15,15)"></stop>
+    </radialGradient>
+    
+    <!-- Question mark symbol definition based on provided design -->
+    <symbol id="questionMark" viewBox="0 0 1.8 1.8">
+      <path d="M1.012 1.238H.675c0-.338.18-.45.304-.517q.068-.034.101-.068c.056-.056.034-.135.023-.158C1.069.416.99.337.844.337.608.338.563.551.563.596L.225.551C.248.36.416 0 .844 0c.259 0 .484.146.574.36a.48.48 0 0 1-.09.529c-.056.056-.124.09-.18.124-.101.056-.135.113-.135.225m.056.338a.225.225 0 1 1-.45 0 .225.225 0 0 1 .45-.001" fill="rgb(53,53,54)" fill-opacity="1"></path>
+    </symbol>
+  </defs>
+  
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#backgroundGradient)"></rect>
+  
+  <!-- Question mark pattern using original positions -->
+  <g>
+    <!-- First cluster (upper left) -->
+    <use xlink:href="#questionMark" x="92" y="141" width="50" height="50" />
+    <use xlink:href="#questionMark" x="55" y="220" width="60" height="60" />
+  
+    <!-- Second cluster (upper right) -->
+    <use xlink:href="#questionMark" x="377" y="141" width="50" height="50" />
+    <use xlink:href="#questionMark" x="397" y="220" width="60" height="60" />
+    
+    <!-- Third cluster (top center) -->
+    <use xlink:href="#questionMark" x="148" y="73" width="50" height="50" />
+    <use xlink:href="#questionMark" x="310" y="74" width="50" height="50" />
+    
+    <!-- Fourth cluster (top extreme) -->
+    <use xlink:href="#questionMark" x="236" y="27" width="40" height="40" />
+    <use xlink:href="#questionMark" x="109" y="15" width="50" height="50" />
+    <use xlink:href="#questionMark" x="362" y="15" width="50" height="50" />
+    
+    <!-- Fifth cluster (middle) -->
+    <use xlink:href="#questionMark" x="232" y="369" width="60" height="60" />
+    <use xlink:href="#questionMark" x="315" y="421" width="50" height="50" />
+    <use xlink:href="#questionMark" x="158" y="421" width="50" height="50" />
+    <use xlink:href="#questionMark" x="237" y="465" width="40" height="40" />
+    
+    <!-- Sixth cluster (left and right sides) -->
+    <use xlink:href="#questionMark" x="12" y="312" width="40" height="40" />
+    <use xlink:href="#questionMark" x="27" y="100" width="40" height="40" />
+    <use xlink:href="#questionMark" x="445" y="100" width="40" height="40" />
+    <use xlink:href="#questionMark" x="459" y="312" width="40" height="40" />
+    
+    <!-- Seventh cluster (lower left and right) -->
+    <use xlink:href="#questionMark" x="46" y="421" width="40" height="40" />
+    <use xlink:href="#questionMark" x="426" y="421" width="40" height="40" />
+    
+    <!-- Eighth cluster (mid height) -->
+    <use xlink:href="#questionMark" x="99" y="347" width="50" height="50" />
+    <use xlink:href="#questionMark" x="364" y="347" width="50" height="50" />
+  </g>
+</svg>
